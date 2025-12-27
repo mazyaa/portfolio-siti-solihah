@@ -1,15 +1,9 @@
-import profile from "../../assets/img/profile.jpeg";
 import { Button } from "@heroui/button";
 import { Card } from "@heroui/card";
 import { Image } from "@heroui/image";
-import { Chip } from "@heroui/chip";
-import {
-  HiSparkles,
-  HiBriefcase,
-  HiAcademicCap,
-  HiUserGroup,
-} from "react-icons/hi";
-import { FaArrowDown } from "react-icons/fa";
+import { HiBriefcase, HiAcademicCap, HiUserGroup } from "react-icons/hi";
+
+import profile from "../../assets/img/profile.jpeg";
 
 export const Hero = () => {
   const scrollTo = (id: string) => {
